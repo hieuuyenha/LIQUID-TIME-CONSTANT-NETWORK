@@ -39,10 +39,10 @@ This script creates a folder ```data```, where all downloaded datasets are store
 There is exactly one Python module per dataset:
 - Room occupancy detection: ```occupancy.py```
 - Human activity recognition: ```har.py```
-- Lung Pneumoniarecognition
+- Lung Pneumonia recognition: ```lungCaner.py```
 - 
 Each script accepts the following four arguments:
 - ```--model: lstm | ctrnn | ltc | ltc_rk | ltc_ex```
 - ```--epochs: number of training epochs (default 200)```
-- ```--size: number of hidden RNN units  (default 32)```
+- ```--size: number of hidden RNN units  (default 64)```
 - ```--log: interval of how often to evaluate validation metric (default 1)```
